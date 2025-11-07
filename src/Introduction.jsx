@@ -1,13 +1,106 @@
 import Header from './Header';
 import Footer from './Footer';
+
 export default function Introduction() {
   return (
     <>
-    <title>Aiden Vang's Auraed Vulture | Introduction</title>
-    <main>
-      <h2>Introduction</h2>
-      <p>Intro Text</p>
-    </main>
+      {/* Decorative side images */}
+      <img
+        src="/images/birds.jpeg"
+        alt="Decorative Left"
+        className="side-image left"
+      />
+      <img
+        src="/images/birds.jpeg"
+        alt="Decorative Right"
+        className="side-image right"
+      />
+
+      <main>
+        <h2>Introduction</h2>
+        <p>
+          <em>I acknowledge the information - A.V. 10/23/25</em>
+        </p>
+
+        <figure>
+          <img
+            src="/images/self2.jpg"
+            alt="Aiden Vang"
+            className="profile-img"
+          />
+          <figcaption>Endearing Prom Photo, 2023</figcaption>
+        </figure>
+
+        <p>
+          Hi, I am Aiden! I am studying Computer Science with a concentration in
+          Cybersecurity. I was born and raised in Charlotte and attended the
+          early college here at UNC Charlotte. In my free time, I enjoy
+          listening to music, playing piano, and trying new food.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Personal Background</strong>: I am a native Charlottean who
+            grew up just down the road from campus. I am the oldest of two
+            younger siblings and I am the first in my family to enroll in
+            college directly after high school.
+          </li>
+          <li>
+            <strong>Professional Background</strong>: My first job was being a
+            multifaceted team member at Jersey Mikes. Since then, I have been
+            able to intern at Mecklenburg County’s Information Technology
+            department as a quality service intern.
+          </li>
+          <li>
+            <strong>Academic Background</strong>: I am a Computer Science major
+            with a concentration in cybersecurity. I am technically a first
+            year, but I recently graduated from UNC Charlotte’s Early College
+            and am a Junior by credits.
+          </li>
+          <li>
+            <strong>Primary Computer</strong>: Apple Macbook Pro laptop, bedroom
+            desk
+          </li>
+          <li>
+            <strong>Courses I’m Taking, & Why</strong>:
+            <ul>
+              <li>
+                ITSC 3688 - Computers and Their Impact On Society: I am
+                interested to learn more about the current conversation around
+                computer ethics, specifically with the advancements of AI.
+              </li>
+              <li>
+                INFO 2130 - Business Computing: I am looking to develop
+                proficiency in Microsoft in order to diversify my technical
+                portfolio and skills.
+              </li>
+              <li>
+                ITIS 3135 - Front-End Web Application Development: This class is
+                a degree requirement and will help me understand how web
+                applications are developed.
+              </li>
+              <li>
+                STAT 2122 - Intro to Probability & Statistics: This class is a
+                degree requirement and will connect with knowledge learned in my
+                other math courses.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Funny/Interesting Item to Remember Me by</strong>: I cannot
+            swim!
+          </li>
+          <li>
+            <strong>I’d also like to share</strong>: I’m looking to join a study
+            group for this class!
+          </li>
+        </ul>
+
+        <p>“I have not failed. I’ve just found 10,000 ways that won’t work.”</p>
+        <p>
+          - <em>Thomas Edison</em>
+        </p>
+      </main>
     </>
   );
 }
