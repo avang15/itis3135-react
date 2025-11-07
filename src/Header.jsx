@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
     <header>
       <h1>Aiden Vang's Auraed Vulture || ITIS 3135</h1>
       <nav>
-        <a href="./"> Home </a>
-        ||
-        <a href="introduction.html"> Introduction </a>
-        ||
-        <a href="contract.html"> Contract </a>
+        <Link to="/">Home</Link>
+        {" || "}
+        <Link to="/introduction">Introduction</Link>
+        {" || "}
+        <Link to="/contract">Contract</Link>
       </nav>
     </header>
   );
