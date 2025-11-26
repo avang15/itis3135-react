@@ -5,6 +5,7 @@ import Index from './Index.jsx'
 import Introduction from './Introduction.jsx'
 import Contract from './Contract.jsx'
 import Layout from './Layout.jsx';
+import Students from "./Students.jsx";
 import { BrowserRouter, Routes, Route } from 'react-router'
 import '../public/styles/default.css';
 
@@ -16,6 +17,8 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Index />} />
           <Route path='introduction' element={<Introduction />} />
           <Route path='contract' element={<Contract />} />
+          <Route path="students" element={<Students />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
